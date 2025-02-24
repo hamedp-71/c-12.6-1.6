@@ -52,7 +52,7 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "IR-hamedp71-1"
+  - name: "🇮🇷 hamedp71-1"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "QGAWKwwBJ2obTIUlIKkju2J5HIXZYJOcpOZSjEAg1nI="
@@ -63,9 +63,19 @@ proxies:
     reserved: [104, 158, 39]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-2"
+  - name: "🇮🇷 hamedp71-2"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "IE/s0zaqQpK6XVYBzZtz0SHMhumKX9dQe2xDCB0dMFc="
@@ -76,9 +86,19 @@ proxies:
     reserved: [234, 22, 171]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-3"
+  - name: "🇮🇷 hamedp71-3"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "IBZHXF1Zbm6c57O0koC6mr+JxaGW7EPoF+z/fRbKHX8="
@@ -89,9 +109,19 @@ proxies:
     reserved: [111, 20, 196]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-4"
+  - name: "🇮🇷 hamedp71-4"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "+GSbZi0NnpK3sBtPmqcvbTLsHWx+cux96ohn6qrF+mA="
@@ -102,9 +132,19 @@ proxies:
     reserved: [118, 40, 148]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-5"
+  - name: "🇮🇷 hamedp71-5"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "+O3tJT5PUgzpF5hesR7ClqJC5QJ78PfYN275hLehZW0="
@@ -115,9 +155,19 @@ proxies:
     reserved: [138, 231, 210]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-6"
+  - name: "🇮🇷 hamedp71-6"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "6MbMTFuAe1uJJEtgN2UsYJ13L7z1kBWcFKPJqTX0JHw="
@@ -128,9 +178,19 @@ proxies:
     reserved: [238, 147, 197]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-7"
+  - name: "🇮🇷 hamedp71-7"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "WFM0Tg93Tmm9BAgOoKJre3kpagIJGqs8X0o0G8UyakA="
@@ -141,9 +201,19 @@ proxies:
     reserved: [123, 55, 31]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-8"
+  - name: "🇮🇷 hamedp71-8"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "oJyILsu+ynZaiauCWCi/CEQF6Ndu8L92XDGq9v4fo3g="
@@ -154,9 +224,19 @@ proxies:
     reserved: [155, 155, 218]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-9"
+  - name: "🇮🇷 hamedp71-9"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "gM74WrM/HEP1pdpF3O+PA/GMp7estvHh9dGhmqopHGM="
@@ -167,9 +247,19 @@ proxies:
     reserved: [223, 248, 35]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
-  - name: "IR-hamedp71-10"
+  - name: "🇮🇷 hamedp71-10"
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "UO6nSevQRKVntgPp1ro+CpWHrTo4viBG+0ARinBus0E="
@@ -180,7 +270,17 @@ proxies:
     reserved: [125, 208, 143]
     udp: true
     mtu: 1280
-    keepalive: 5
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 100
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
 proxy-groups:
   - name: "✅ انتخاب دستی"
