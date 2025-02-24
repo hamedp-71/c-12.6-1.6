@@ -282,7 +282,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 hamedp71-11"
+  - name: "🇮🇷ipv6 hamedp71-11"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
@@ -306,7 +306,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 hamedp71-12"
+  - name: "🇮🇷ipv6 hamedp71-12"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
@@ -330,7 +330,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 hamedp71-13"
+  - name: "🇮🇷ipv6 hamedp71-13"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
@@ -354,7 +354,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 hamedp71-14"
+  - name: "🇮🇷ipv6 hamedp71-14"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
@@ -378,7 +378,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 hamedp71-15"
+  - name: "🇮🇷ipv6 hamedp71-15"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
@@ -417,17 +417,17 @@ proxy-groups:
       - "🇮🇷 hamedp71-8"
       - "🇮🇷 hamedp71-9"
       - "🇮🇷 hamedp71-10"
-      - "🇮🇷 hamedp71-11"
-      - "🇮🇷 hamedp71-12"
-      - "🇮🇷 hamedp71-13"
-      - "🇮🇷 hamedp71-14"
-      - "🇮🇷 hamedp71-15"
+      - "🇮🇷ipv6 hamedp71-11"
+      - "🇮🇷ipv6 hamedp71-12"
+      - "🇮🇷ipv6 hamedp71-13"
+      - "🇮🇷ipv6 hamedp71-14"
+      - "🇮🇷ipv6 hamedp71-15"
 
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 60
-    tolerance: 80
+    tolerance: 100
     proxies:
       - "🇮🇷 hamedp71-1"
       - "🇮🇷 hamedp71-2"
@@ -439,11 +439,11 @@ proxy-groups:
       - "🇮🇷 hamedp71-8"
       - "🇮🇷 hamedp71-9"
       - "🇮🇷 hamedp71-10"
-      - "🇮🇷 hamedp71-11"
-      - "🇮🇷 hamedp71-12"
-      - "🇮🇷 hamedp71-13"
-      - "🇮🇷 hamedp71-14"
-      - "🇮🇷 hamedp71-15"
+      - "🇮🇷ipv6 hamedp71-11"
+      - "🇮🇷ipv6 hamedp71-12"
+      - "🇮🇷ipv6 hamedp71-13"
+      - "🇮🇷ipv6 hamedp71-14"
+      - "🇮🇷ipv6 hamedp71-15"
 
 rule-providers:
   ir:
