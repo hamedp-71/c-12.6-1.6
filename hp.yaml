@@ -285,6 +285,7 @@ proxies:
   - name: "🇮🇷 hamedp71-11"
     type: wireguard
     ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::3
     private-key: "QGAWKwwBJ2obTIUlIKkju2J5HIXZYJOcpOZSjEAg1nI="
     server: "[2001:67c:2e8:22::c000:207]"
     port: 2100
@@ -308,6 +309,7 @@ proxies:
   - name: "🇮🇷 hamedp71-12"
     type: wireguard
     ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::3
     private-key: "IE/s0zaqQpK6XVYBzZtz0SHMhumKX9dQe2xDCB0dMFc="
     server: "[2001:67c:2e8:22::c000:208]"
     port: 2101
@@ -331,6 +333,7 @@ proxies:
   - name: "🇮🇷 hamedp71-13"
     type: wireguard
     ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::3
     private-key: "IBZHXF1Zbm6c57O0koC6mr+JxaGW7EPoF+z/fRbKHX8="
     server: "[2001:67c:2e8:22::c000:209]"
     port: 2102
@@ -354,6 +357,7 @@ proxies:
   - name: "🇮🇷 hamedp71-14"
     type: wireguard
     ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::3
     private-key: "+GSbZi0NnpK3sBtPmqcvbTLsHWx+cux96ohn6qrF+mA="
     server: "[2001:67c:2e8:22::c000:20a]"
     port: 2103
@@ -377,6 +381,7 @@ proxies:
   - name: "🇮🇷 hamedp71-15"
     type: wireguard
     ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::3
     private-key: "+O3tJT5PUgzpF5hesR7ClqJC5QJ78PfYN275hLehZW0="
     server: "[2001:67c:2e8:22::c000:20b]"
     port: 2104
